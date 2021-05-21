@@ -1,0 +1,15 @@
+.quotesList{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noQuotes{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.noQuotes p{
+    font-size: 25px;
+}

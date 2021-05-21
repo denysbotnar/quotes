@@ -1,0 +1,50 @@
+.quoteContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.quoteContainer .quote{
+    display: flex;
+    flex: 1;
+}
+
+
+.actionsButtons{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.actionsButtons button{
+    padding: 3px 8px;
+    border-radius: 6px;
+    outline: none;    
+    border: none;
+    background-color: rgb(252, 103, 207);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+.actionsButtons button:nth-child(1){
+    background-color: rgb(241, 148, 86);
+}
+
+.actionsButtons button:nth-child(2){
+    background-color: rgb(241, 86, 86);
+}
+
+#quoteText{
+    font-weight: 300;
+}
+
+#quoteAuthor{
+    font-weight: 500;
+}
